@@ -41,8 +41,8 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" target="_blank" rel="noopener noreferrer"
+                  href="Nomar_Olivas_Resume.pdf"
                 >
                   Resume
                 </a>
@@ -54,12 +54,13 @@ export default function Home() {
               Nomar Olivas
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and designer.
+              Software Engineer
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
-            </p>
+            {/* <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            Recent graduate from San Francisco State University with a B.S. in Computer Science.
+            I'm passionate in contributing to projects that are revolutionary and beneficial to everyday life.
+            Proficient in Java with experience in Python, JavaScript, CSS, HTML, C++, and Swift.
+            </p> */}
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
               <AiFillLinkedin />
@@ -72,14 +73,15 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
+            Recent graduate from San Francisco State University with a B.S. in Computer Science.
+            I'm passionate in contributing to projects that are revolutionary and beneficial to everyday life.
+            Proficient in Java with experience in Python, JavaScript, CSS, HTML, C++, and Swift.
+              {/* <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              for both business and consumer use. */}
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services, including brand design,
