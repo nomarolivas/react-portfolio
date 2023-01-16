@@ -178,7 +178,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Throughout my journey of becoming a Software Engineer, I’ve created these projects which include 4 web applications, 
+            Throughout my journey of becoming a Software Engineer, I’ve created these projects which include: 4 web applications, 
             2 management systems, and a mobile application in order to showcase my skills when it 
             comes to working with various programming languages and frameworks. 
             </p>
