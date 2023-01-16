@@ -38,7 +38,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className=" text-xl">LinkedIn</h1>
+            {/* <h1 className=" text-xl">LinkedIn</h1> */}
             <h1 className="font-burtons text-xl"></h1>
             <ul className="flex items-center">
               <li>
@@ -48,18 +48,24 @@ export default function Home() {
                 />
               </li>
               <li>
+                
                 <a
+                
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8" target="_blank" rel="noopener noreferrer"
                   href="Nomar_Olivas_Resume.pdf"
                 download>
+                  
                   Resume
                 </a>
+                
+                
 
                 {/* <button className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 text- inline-flex">
                 <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
                 <span>Resume</span>
                 </button> */}
               </li>
+              
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
@@ -74,11 +80,19 @@ export default function Home() {
             I'm passionate in contributing to projects that are revolutionary and beneficial to everyday life.
             Proficient in Java with experience in Python, JavaScript, CSS, HTML, C++, and Swift.
             </p> */}
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 ">
+               
+
+              {/* <AiFillLinkedin target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nomarolivas/" AiFillLinkedin /> */}
+              <button onClick={() => clickLinkedIn()}>
+                <AiFillLinkedin />
+            </button>
+
+            <button onClick={() => clickGit()}>
+                <AiFillGithub />
+            </button>
               
-              <AiFillLinkedin />
-              
-              <AiFillGithub/>
+              {/* <AiFillGithub/> */}
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" objectFit="cover" />
@@ -162,18 +176,16 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+            Throughout my journey of becoming a Software Engineer, I’ve created these projects which include 4 web applications, 
+            2 management systems, and a mobile application in order to showcase my skills when it 
+            comes to working with various programming languages and frameworks. 
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+            You can view all of my projects that I’ve completed by clicking   
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas" class="font-medium text-teal-600 dark:text-teal-600 "> here</a> 
+            .
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -188,7 +200,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1 ">
-            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/PostIt" class="font-bold text-teal-600 dark:text-teal-600hover:underline">Post It</a>
+            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/PostIt" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">Post It</a>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -245,4 +257,15 @@ export default function Home() {
       </main>
     </div>
   );
+}
+
+function clickLinkedIn() {
+  window.open("https://www.linkedin.com/in/nomarolivas/", '_blank');
+  
+}
+
+function clickGit() {
+
+  window.open("https://github.com/nomarolivas", '_blank');
+  
 }
