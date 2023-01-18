@@ -103,12 +103,12 @@ export default function Home() {
               </h3>
               <h4 className="py-2 text-teal-600">Proficient In:</h4>
               <p className="text-gray-800 py-1">React</p>
-              <p className="text-gray-800 py-1">NodeJs</p>
+              <p className="text-gray-800 py-1">Node.js</p>
               <p className="text-gray-800 py-1">MySQL</p>
               <h4 className="py-2 text-teal-600">Experience In:</h4>
               <p className="text-gray-800 py-1">React Native</p>
-              <p className="text-gray-800 py-1">ExpressJs</p>
-              <p className="text-gray-800 py-1">Tailwindcss</p>
+              <p className="text-gray-800 py-1">Express.js</p>
+              <p className="text-gray-800 py-1">Tailwind CSS</p>
               <p className="text-gray-800 py-1">Google Cloud Platform</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -135,8 +135,8 @@ export default function Home() {
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             You can view all of my projects that I’ve completed by clicking   
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas" class="font-medium text-teal-600 dark:text-teal-600 "> here</a> 
-            .
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas" class="font-medium text-teal-600 dark:text-teal-600 "> here </a> 
+             or by clicking each project's name.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
