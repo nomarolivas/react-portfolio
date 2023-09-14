@@ -6,7 +6,8 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
+// import deved from "../public/dev-ed-wave.png";
+import nomar from "..public/profilePicture.JPG"
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -68,7 +69,7 @@ export default function Home() {
               
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              {/* <Image src={nomar} layout="fill" objectFit="cover" /> */}
             </div>
           </div>
         </section>
@@ -92,8 +93,8 @@ export default function Home() {
               <p className="text-gray-800 py-1">JavaScript</p>
               <h4 className="py-4 text-teal-600">Experience In:</h4>
               <p className="text-gray-800 py-1">Python</p>
-              <p className="text-gray-800 py-1">CSS</p>
-              <p className="text-gray-800 py-1">HTML</p>
+              <p className="text-gray-800 py-1">C#</p>
+              <p className="text-gray-800 py-1">HTML/CSS</p>
               <p className="text-gray-800 py-1">C/C++</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
