@@ -94,6 +94,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Experience In:</h4>
               <p className="text-gray-800 py-1">Python</p>
               <p className="text-gray-800 py-1">C#</p>
+              <p className="text-gray-800 py-1">TypeScript</p>
               <p className="text-gray-800 py-1">HTML/CSS</p>
               <p className="text-gray-800 py-1">C/C++</p>
             </div>
@@ -128,7 +129,9 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
+            {/* <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3> */}
+            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas" class=" text-3xl py-1 dark:text-white hover:underline"  >Portfolio</a>
+
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             Throughout my journey of becoming a Software Engineer, I’ve created these projects which include: 4 web applications, 
             2 management systems, and a mobile application in order to showcase my skills when it 
