@@ -7,7 +7,7 @@ import {
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 // import deved from "../public/dev-ed-wave.png";
-import nomar from "..public/profilePicture.JPG"
+import nomar from "../public/profilePicture.JPG";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -69,7 +69,7 @@ export default function Home() {
               
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              {/* <Image src={nomar} layout="fill" objectFit="cover" /> */}
+              <Image src={nomar} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
