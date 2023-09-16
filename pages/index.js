@@ -77,7 +77,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Recent graduate from San Francisco State University with a B.S. in Computer Science.
+            Recent graduate from San Francisco State University with a Bachlor of Science in Computer Science.
             I'm passionate in contributing to projects that are revolutionary and beneficial to everyday life.
             </p>  
           </div>
@@ -91,12 +91,13 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Proficient In:</h4>
               <p className="text-gray-800 py-1">Java</p>
               <p className="text-gray-800 py-1">JavaScript</p>
-              <h4 className="py-4 text-teal-600">Experience In:</h4>
               <p className="text-gray-800 py-1">Python</p>
+              <h4 className="py-4 text-teal-600">Experience In:</h4>
               <p className="text-gray-800 py-1">C#</p>
               <p className="text-gray-800 py-1">TypeScript</p>
               <p className="text-gray-800 py-1">HTML/CSS</p>
               <p className="text-gray-800 py-1">C/C++</p>
+              <p className="text-gray-800 py-1">PHP</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
@@ -104,14 +105,14 @@ export default function Home() {
               Frameworks and Software
               </h3>
               <h4 className="py-2 text-teal-600">Proficient In:</h4>
-              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">React.js</p>
               <p className="text-gray-800 py-1">Node.js</p>
-              <p className="text-gray-800 py-1">MySQL</p>
+              <p className="text-gray-800 py-1">SQL</p>
               <h4 className="py-2 text-teal-600">Experience In:</h4>
-              <p className="text-gray-800 py-1">React Native</p>
-              <p className="text-gray-800 py-1">Express.js</p>
-              <p className="text-gray-800 py-1">Tailwind CSS</p>
+              <p className="text-gray-800 py-1">.NET</p>
+              <p className="text-gray-800 py-1">LAMP Stack</p>
               <p className="text-gray-800 py-1">Google Cloud Platform</p>
+              <p className="text-gray-800 py-1">Amazon Web Services</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
