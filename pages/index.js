@@ -12,10 +12,10 @@ import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
-import gatorJobs from "../public/GatorJobs_preview.png";
+import gatorJobs from "../public/gatorJob_preview.png";
 import postIt from "../public/PostIt_preview.png";
 import garageBand from "../public/GarageBand_preview.png";
-import noma from "../public/coming_soon.png";
+import sneakerMe from "../public/sneakerMe_preview.png";
 import tankGame from "../public/tankGame_preview.png";
 import spendingTracker from "../public/spendingTracker_preview.png";
 
@@ -118,13 +118,14 @@ export default function Home() {
               <Image src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Skills and Strengths</h3>
               <h4 className="py-4 text-teal-600">What I Can Bring:</h4>
-              <p className="text-gray-800 py-1">Organized</p>
-              <p className="text-gray-800 py-1">Dedicated</p>
-              <p className="text-gray-800 py-1">Persistant</p>
-              <p className="text-gray-800 py-1">Collaborator</p>
-              <p className="text-gray-800 py-1">Adaptable</p>
-              <p className="text-gray-800 py-1">Reliable Teammate</p>
-              <p className="text-gray-800 py-1">Spanish Speaker</p>
+              <p className="text-gray-800 py-1">Objected Oriented Programming</p>
+              <p className="text-gray-800 py-1">Project Management</p>
+              <p className="text-gray-800 py-1">Team Collaborator</p>
+              <p className="text-gray-800 py-1">Orginization</p>
+              <p className="text-gray-800 py-1">Resiliency</p>
+              <p className="text-gray-800 py-1">Adaptablility</p>
+              
+              
             </div>
           </div>
         </section>
@@ -134,19 +135,19 @@ export default function Home() {
             <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas" class=" text-3xl py-1 dark:text-white hover:underline"  >Portfolio</a>
 
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Throughout my journey of becoming a Software Engineer, I’ve created these projects which include: 4 web applications, 
-            2 management systems, and a mobile application in order to showcase my skills when it 
-            comes to working with various programming languages and frameworks. 
+            Below are the projects that I’ve made over the past few years of my software engineering career. 
+            Select each projects' name to view its repository or visit my GitHub page  
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas" class="font-medium text-teal-600 dark:text-teal-600 "> here</a>.  
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            {/* <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             You can view all of my projects that I’ve completed by clicking   
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas" class="font-medium text-teal-600 dark:text-teal-600 "> here </a> 
              or by clicking each project's name.
-            </p>
+            </p> */}
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/GatorJobs" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">GatorJobs</a>
+            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/GatorJobs" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">GatorJobs: Job Search Site</a>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -156,7 +157,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1 ">
-            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/PostIt" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">Post It</a>
+            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/PostIt" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">Post It: Tumblr Clone</a>
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -165,6 +166,19 @@ export default function Home() {
                 src={postIt}
               />
             </div>
+            <div className="basis-1/3 flex-1 ">
+            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/SneakerMe" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">SneakerMe: E-commerce Site</a>
+
+              <Image
+                className="rounded-lg object-cover"
+                width={"125%"}
+                height={"100%"}
+                layout="responsive"
+                src={sneakerMe}
+              />
+            </div>
+
+
             <div className="basis-1/3 flex-1 " href="#">
             <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/GarageBand" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">GarageBand</a>
               <Image
@@ -175,17 +189,7 @@ export default function Home() {
                 src={garageBand}
               />
             </div>
-            <div className="basis-1/3 flex-1 ">
-            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/Noma-StoreFront" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">Noma Storefront</a>
 
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={noma}
-              />
-            </div>
             <div className="basis-1/3 flex-1 ">
             <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/Tank-Wars-Game" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">Tank Wars Game</a>
 
@@ -198,7 +202,7 @@ export default function Home() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/Spending_Tracker" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">Spending Tracker</a>
+            <a  target="_blank" rel="noopener noreferrer" href="https://github.com/nomarolivas/Spending_Tracker" class="font-bold text-teal-600 dark:text-teal-600 hover:underline">Spending Tracker iOS App</a>
 
               <Image
                 className="rounded-lg object-cover"
